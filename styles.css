@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  height: 4.5rem;
+}
+.brand--logo {
+  font-size: 3rem;
+}
+.hero--section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://img.freepik.com/premium-photo/delicious-meal-gourmet-restaurant-dish-fresh-food-lunch-dinner_919857-2532.jpg);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+.hero--section h1 {
+  color: white;
+  max-width: 30rem;
+  margin-top: 9rem;
+  margin-bottom: 2rem;
+}
+.cta--btn {
+  padding: 1rem 3rem;
+  background-color: rgba(0, 0, 0, 0.873);
+  color: white;
+  border-radius: 1px;
+  border-color: rgba(255, 255, 255, 0.856);
+}
+
+.menu--div {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr;
+  gap: 6rem;
+  margin-bottom: 5rem;
+  margin-bottom: 5rem;
+}
+.menu--div img {
+  width: 20rem;
+  margin-bottom: 1rem;
+}
+.image--div {
+}
+.menu--div p {
+}
+
+.about--us--div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+.about--us--div img {
+  background-size: cover;
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .about--us--div img {
+    width: 70%;
+  }
+  .about--us--div {
+    width: 50%;
+  }
+}
+.about--us--div p {
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+footer {
+  margin-bottom: 2rem;
+}
+.footer--div {
+  background-color: black;
+  color: white;
+  height: 7rem;
+  margin-bottom: 2rem;
+}
+.footer--div ul {
+  list-style: none;
+  margin-bottom: 7rem;
+  
+}
+footer p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+@media screen and (min-width: 992px) {
+  .footer--div ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 7rem;
+    padding-top: 2.5rem;
+  }
+  footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

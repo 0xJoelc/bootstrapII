@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dine.com</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--header section-->
+    <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold brand--logo" href="#">dine</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="ms-auto navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--header ends-->
+    <!--hero section-->
+    <section class="hero--section">
+      <h1 class="text-white fw-bold fs-1">Exquisite dining</h1>
+      <button class="cta--btn">BOOK A TABLE</button>
+    </section>
+    <!--hero section ends-->
+    <!--menu section-->
+    <div class="container text-center menu--div">
+      <div class="row row-cols-1 row-cols-lg-2">
+        <div class="col image--div">
+          <img
+            src="https://www.31daily.com/wp-content/uploads/2021/01/md-Creamy-Root-Vegetable-Soup-8-1-of-1-scaled.jpg"
+            alt="soup image"
+          />
+          <h5>Roasted Root Vegetable Soup</h5>
+          <p>
+            A comforting blend of seasonal root vegetables, slow-roasted and
+            pureed into a creamy soup.
+          </p>
+        </div>
+        <div class="col image--div">
+          <img
+            src="https://twistedvmarket.com/wp-content/uploads/2025/01/how-to-roast-the-perfect-duck.webp"
+            alt=""
+          />
+          <h5>Farm-to-Table Herb Chicken</h5>
+          <p>
+            Free-range chicken marinated in a medley of garden herbs,
+            oven-roasted to perfection.
+          </p>
+        </div>
+        <div class="col image--div">
+          <img
+            src="https://img.freepik.com/premium-photo/panna-cotta-with-lavender-honey-drizzle_1179130-195474.jpg"
+            alt=""
+          />
+          <h5>Honey Lavender Panna Cotta</h5>
+          <p>
+            A creamy Italian dessert infused with organic lavender and sweetened
+            with local honey.
+          </p>
+        </div>
+        <div class="col image--div">
+          <img
+            src="https://www.foodandwine.com/thmb/8dAfxa_e3ocUs6ZDI6G6ppillcA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/wild-mushrooms-with-leek-garlic-puree-and-buckwheat-crepe-crackers-FT-RECIPE0420-0d72505c3a074746998a8109da81f6bd.jpg"
+            alt=""
+          />
+          <h5>Forest Mushroom Medley</h5>
+          <p>
+            A seasonal selection of wild mushrooms sautéed with garlic, fresh
+            herbs, and a touch of white wine.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--menu section ends-->
+    <!--about us section-->
+
+    <div class="row d-flex  flex-column flex-md-row p-5 ">
+      <div class="col-4 about--us--div">
+        <div>
+          <h1>Our Mission</h1>
+          <p>
+            At Culinary Cove, our core mission is to offer a sanctuary for those
+            who seek exceptional flavors and culinary experiences. We pride
+            ourselves on sourcing only the finest ingredients, carefully
+            crafting dishes that bridge the gap between traditional and modern
+            cooking techniques. Our culinary team is driven by a shared passion
+            for gastronomy, always striving to create unforgettable meals that
+            resonate with our guests.
+          </p>
+        </div>
+      </div>
+      <div class="col-8 about--us--div">
+        <img
+          src="https://media.istockphoto.com/id/1446478827/photo/a-chef-is-cooking-in-his-restaurants-kitchen.jpg?s=612x612&w=0&k=20&c=jwKJmGErrLe2XsTWNYEEyiNicudYVA4j8jvnTiJdp58="
+          alt="About us"
+        />
+      </div>
+    </div>
+    <!--about us section ends-->
+    <!--contact section-->
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+        />
+        <div id="emailHelp" class="form-text">
+          We'll never share your email with anyone else.
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="text" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" />
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-dark">Submit</button>
+    </form>
+    <!--contact section ends-->
+    <!--footer section-->
+    <footer>
+      <div class="footer--div">
+        <ul>
+          <li>FAQs</li>
+          <li>Privacy Policy</li>
+          <li>Terms & Conditions</li>
+          <li>© 2025 Dine Restaurants</li>
+        </ul>
+      </div>
+      <p>
+        We use cookies and various web tracking technologies to personalize
+        content and ads.
+      </p>
+    </footer>
+
+    <!--footer section ends-->
+  </body>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"
+  ></script>
+</html>
